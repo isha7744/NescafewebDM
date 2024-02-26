@@ -1,0 +1,72 @@
+/* Add a black background color to the top navigation */
+body{
+    background-color: rgb(6, 5, 4);
+    padding: 10px 10px;
+}
+  
+  .heading {
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading h1 {
+    color: #5f0000;
+    text-align: center;
+    padding: 10px  10px;
+    margin-top: 40px; /* Adjust margin to position below the navbar */
+    z-index: 1;
+    
+    
+}
+
+.heading p {
+    color: #424242;
+}
+
+.center {
+   text-align: center;
+}
+.carousel-inner{
+    position: fixed;
+    z-index: 1;
+    margin-top: 5px; /* Adjust margin-top to match the height of your navbar */
+    padding: 10px 25px;
+}
+.carousel-item{
+  position: relative;
+  z-index: 1;
+  margin-top: 0px; /* Adjust margin-top to match the height of your navbar */
+  background-image: url(''); /* Add the path to your carousel background image */
+  background-size: cover;
+  background-position: center;
+  color: #f7f0f0fe; /* Set text color for better contrast */
+  padding: 0px; /* Adjust padding as needed */
+}
+.carousel-item {
+  position: fixed;
+  z-index: 1; /* Lower z-index to keep it behind the navbar */
+  border-image-outset: 0cm;
+}
+.container.my-5 {
+  background-color: #cacaca; /* Set a background color for these sections */
+  padding: 0px 5px; /* Adjust padding as needed */
+  background-position: center;
+}
+.carouselslide{
+  position: relative;
+  z-index: 1; /* Lower z-index to keep it behind the navbar */
+  border-image-outset: 10px;
+}
+.d-block{
+  background-image: url(''); /* Add the path to your carousel background image */
+    background-size: cover;
+    background-position: center;
+    color: #020202; /* Set text color for better contrast */
+    padding: 0px 10px; /* Adjust padding as needed
+}
+.carousel-container {
+  position: relative;
+  margin-top: 60px; /* Adjust according to navbar height */
+}

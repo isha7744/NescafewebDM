@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://garden.spoonflower.com/c/16401450/p/f/m/xcvnHA-_X4H7jy9HdPc3KQn2mM2CeE-gMWxwK4Crq1ajJsAKRlpO/Peach%20Fuzz%20Summer%20Solid%20Colour%20Coordinating%20Print.jpg');
+    background-size: cover;
+    background-position: center;
+    font-style: bold;
+    font-weight: bold;
+  
+  header {
+    background-image: url('https://img.freepik.com/premium-vector/coffee-beans-seamless-light-background-pattern-with-line-coffee-beans_373783-246.jpg'); /* Add the path to your header background image */
+    background-size: cover;
+    background-position: top;
+    color: brown; /* Set text color for better contrast */
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding as needed */
+    font-style: bold;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  .welcome-message,
+  .storytelling-series,
+  .container.my-5 {
+    background-color: #f3d1d1; /* Set a background color for these sections */
+    padding: 50px 20px; /* Adjust padding as needed */
+  }
+  
+  .visual-journey-carousel {
+    background-image: url(''); /* Add the path to your carousel background image */
+    background-size: cover;
+    background-position: center;
+    color: #d9b0b0; /* Set text color for better contrast */
+    padding: 50px 20px; /* Adjust padding as needed */
+  }
+  
+  .shop-now,
+  .stay-connected,
+  .social-icons {
+    margin-top: 20px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons i {
+  font-size: 40px; /* Adjust the size of your social media icons */
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2); /* Increase the size on hover or customize as needed */
+}
+
+  footer {
+    background-color: #333333; /* Set a background color for these sections */
+    color: #ffffff; /* Set text color for better contrast */
+    padding: 50px 20px; /* Adjust padding as needed */
+  }
+/* Style for the fixed navigation bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:   rgb(51, 48, 49); /* Adjust background color as needed */
+  padding: 20px 0; /* Adjust padding as needed */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Style for the navigation links */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  color: rgb(0, 229, 255); /* Change the color on hover */
+}
+.navbar .logo {
+  font-size: 28px;
+  font-weight: bold;
+  right: 0;
+  color:#d9b0b0;
+  margin-right: 20px;
+}
+

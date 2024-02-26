@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.roosterbrother.com/wp-content/uploads/2017/06/coffee-background-top-1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 300px;
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 192, 203, 0.8); /* Pink color */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: pink;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    
+    background-color: #45a049;
+}
+/* Style for the fixed navigation bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color:   rgb(51, 48, 49); /* Adjust background color as needed */
+  padding: 20px 0; /* Adjust padding as needed */
+  z-index: 1001; /* Ensure it's above other content */
+}
+
+/* Style for the fixed navigation bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:   rgb(51, 48, 49); /* Adjust background color as needed */
+  padding: 20px 0; /* Adjust padding as needed */
+  z-index: 1000; /* Ensure it's above other content */
+  float: right;
+}
+
+/* Style for the navigation links */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: inline;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  color: rgb(0, 229, 255); /* Change the color on hover */
+}
+.navbar .logo {
+  font-size: 28px;
+  font-weight: bold;
+  right: 0;
+  color:#d9b0b0;
+  margin-right: 20px;
+  display:inline;
+}
+
+
+  
+  
